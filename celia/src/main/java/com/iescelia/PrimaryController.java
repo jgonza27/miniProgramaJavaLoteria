@@ -16,7 +16,7 @@ public class PrimaryController {
         ArrayList<Integer> loteria = new ArrayList<>();
         String s = "";
 
-        for (int i = 0; i <= 7; i++) {
+        for (int i = 0; i <= 6; i++) {
 
             int a = (int) (Math.random() * 49) + 1;
             loteria.add(a);
